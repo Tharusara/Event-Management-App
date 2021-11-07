@@ -1,0 +1,128 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200923070531_usermodule.cs" />
+    <Compile Remove="Migrations\20200923070531_usermodule.Designer.cs" />
+    <Compile Remove="Migrations\20201214101541_employeeModuletest1.cs" />
+    <Compile Remove="Migrations\20201214101541_employeeModuletest1.Designer.cs" />
+    <Compile Remove="Migrations\20201214102642_employeeModuletest2.cs" />
+    <Compile Remove="Migrations\20201214102642_employeeModuletest2.Designer.cs" />
+    <Compile Remove="Migrations\20201214132819_employeeModuletest3.cs" />
+    <Compile Remove="Migrations\20201214132819_employeeModuletest3.Designer.cs" />
+    <Compile Remove="Migrations\20201214173024_employeeModuletest1.cs" />
+    <Compile Remove="Migrations\20201214173024_employeeModuletest1.Designer.cs" />
+    <Compile Remove="Migrations\20201215035234_employeeModuletest1.cs" />
+    <Compile Remove="Migrations\20201215035234_employeeModuletest1.Designer.cs" />
+    <Compile Remove="Migrations\20201215050803_employeeModuletest1.cs" />
+    <Compile Remove="Migrations\20201215050803_employeeModuletest1.Designer.cs" />
+    <Compile Remove="Migrations\20201215051031_employeeModuletest1.cs" />
+    <Compile Remove="Migrations\20201215051031_employeeModuletest1.Designer.cs" />
+    <Compile Remove="Migrations\20201215055855_employeeModuletest1.cs" />
+    <Compile Remove="Migrations\20201215055855_employeeModuletest1.Designer.cs" />
+    <Compile Remove="Migrations\20201215071935_employeeModuletest1.cs" />
+    <Compile Remove="Migrations\20201215071935_employeeModuletest1.Designer.cs" />
+    <Compile Remove="Migrations\20201215072639_employeeModuletest1.cs" />
+    <Compile Remove="Migrations\20201215072639_employeeModuletest1.Designer.cs" />
+    <Compile Remove="Migrations\20201215081953_employeeModuletest1.cs" />
+    <Compile Remove="Migrations\20201215081953_employeeModuletest1.Designer.cs" />
+    <Compile Remove="Migrations\20201215122256_employeeModuletest1.cs" />
+    <Compile Remove="Migrations\20201215122256_employeeModuletest1.Designer.cs" />
+    <Compile Remove="Migrations\20201215122410_employeeModuletest1.cs" />
+    <Compile Remove="Migrations\20201215122410_employeeModuletest1.Designer.cs" />
+    <Compile Remove="Migrations\20201215163012_employeeModuletest1.cs" />
+    <Compile Remove="Migrations\20201215163012_employeeModuletest1.Designer.cs" />
+    <Compile Remove="Migrations\20201219150235_updatingmodelsforcreationmapping.cs" />
+    <Compile Remove="Migrations\20201219150235_updatingmodelsforcreationmapping.Designer.cs" />
+    <Compile Remove="Migrations\20201220065325_updatingmodelsforcreationmapping.cs" />
+    <Compile Remove="Migrations\20201220065325_updatingmodelsforcreationmapping.Designer.cs" />
+    <Compile Remove="Migrations\20201220065421_updatingmodelsforcreationmapping.cs" />
+    <Compile Remove="Migrations\20201220065421_updatingmodelsforcreationmapping.Designer.cs" />
+    <Compile Remove="Migrations\20201223062800_ItemSupplierModuleAndPayment.cs" />
+    <Compile Remove="Migrations\20201223062800_ItemSupplierModuleAndPayment.Designer.cs" />
+    <Compile Remove="Migrations\20201223064317_ItemSupplierModuleAndPayment.cs" />
+    <Compile Remove="Migrations\20201223064317_ItemSupplierModuleAndPayment.Designer.cs" />
+    <Compile Remove="Migrations\20201223123827_ItemSupplierModuleAndPayment.cs" />
+    <Compile Remove="Migrations\20201223123827_ItemSupplierModuleAndPayment.Designer.cs" />
+    <Compile Remove="Migrations\20201223125419_ItemSupplierModuleAndPayment.cs" />
+    <Compile Remove="Migrations\20201223125419_ItemSupplierModuleAndPayment.Designer.cs" />
+    <Compile Remove="Migrations\20210101084532_othermodels.cs" />
+    <Compile Remove="Migrations\20210101084532_othermodels.Designer.cs" />
+    <Compile Remove="Migrations\20210106044222_manyTomanyRelationMappingForServiceAndPackageModule.cs" />
+    <Compile Remove="Migrations\20210106044222_manyTomanyRelationMappingForServiceAndPackageModule.Designer.cs" />
+    <Compile Remove="Migrations\20210107064827_manyTomanyRelationMappingForEventServiceItem.cs" />
+    <Compile Remove="Migrations\20210107064827_manyTomanyRelationMappingForEventServiceItem.Designer.cs" />
+    <Compile Remove="Migrations\20210107081308_manyTomanyRelationMappingForEventServiceItem2.cs" />
+    <Compile Remove="Migrations\20210107081308_manyTomanyRelationMappingForEventServiceItem2.Designer.cs" />
+    <Compile Remove="Migrations\20210107085400_manyTomanyRelationMappingForEventServiceItem.cs" />
+    <Compile Remove="Migrations\20210107085400_manyTomanyRelationMappingForEventServiceItem.Designer.cs" />
+    <Compile Remove="Migrations\20210107133430_manyTomanyRelationMappingForeventEmployeeAndOneToManyForEventPayment.cs" />
+    <Compile Remove="Migrations\20210107133430_manyTomanyRelationMappingForeventEmployeeAndOneToManyForEventPayment.Designer.cs" />
+    <Compile Remove="Migrations\20210107144859_manyTomanyRelationMappingForeventEmployeeAndOneToManyForEventPayment2.cs" />
+    <Compile Remove="Migrations\20210107144859_manyTomanyRelationMappingForeventEmployeeAndOneToManyForEventPayment2.Designer.cs" />
+    <Compile Remove="Migrations\20210107145026_manyTomanyRelationMappingForeventEmployeeAndOneToManyForEventPayment2.cs" />
+    <Compile Remove="Migrations\20210107145026_manyTomanyRelationMappingForeventEmployeeAndOneToManyForEventPayment2.Designer.cs" />
+    <Compile Remove="Migrations\20210107145229_manyTomanyRelationMappingForeventEmployeeAndOneToManyForEventPayment2.cs" />
+    <Compile Remove="Migrations\20210107145229_manyTomanyRelationMappingForeventEmployeeAndOneToManyForEventPayment2.Designer.cs" />
+    <Compile Remove="Migrations\20210111052843_manyTomanyRelationMappingForHallfeature.cs" />
+    <Compile Remove="Migrations\20210111052843_manyTomanyRelationMappingForHallfeature.Designer.cs" />
+    <Compile Remove="Migrations\20210111094312_removemappingofeventandcustomertest1.cs" />
+    <Compile Remove="Migrations\20210111094312_removemappingofeventandcustomertest1.Designer.cs" />
+    <Compile Remove="Migrations\20210111094450_addingcustomerandeentmappingtest1.cs" />
+    <Compile Remove="Migrations\20210111094450_addingcustomerandeentmappingtest1.Designer.cs" />
+    <Compile Remove="Migrations\20210111095736_addingcustomerandeentmappingtest2.cs" />
+    <Compile Remove="Migrations\20210111095736_addingcustomerandeentmappingtest2.Designer.cs" />
+    <Compile Remove="Migrations\20210111101239_addingcustomerandeentmappingtest3.cs" />
+    <Compile Remove="Migrations\20210111101239_addingcustomerandeentmappingtest3.Designer.cs" />
+    <Compile Remove="Migrations\20210111125846_addingcustomerandeentmappingtest4.cs" />
+    <Compile Remove="Migrations\20210111125846_addingcustomerandeentmappingtest4.Designer.cs" />
+    <Compile Remove="Migrations\20210111130613_addingcustomerandeentmappingtest5.cs" />
+    <Compile Remove="Migrations\20210111130613_addingcustomerandeentmappingtest5.Designer.cs" />
+    <Compile Remove="Migrations\20210118093657_photosmodelforhaltest1.cs" />
+    <Compile Remove="Migrations\20210118093657_photosmodelforhaltest1.Designer.cs" />
+    <Compile Remove="Migrations\20210122091334_photoupdate.cs" />
+    <Compile Remove="Migrations\20210122091334_photoupdate.Designer.cs" />
+    <Compile Remove="Migrations\20210122091847_photoupdate.cs" />
+    <Compile Remove="Migrations\20210122091847_photoupdate.Designer.cs" />
+    <Compile Remove="Migrations\20210129100224_PhotoMappingForemployeeAndItem.cs" />
+    <Compile Remove="Migrations\20210129100224_PhotoMappingForemployeeAndItem.Designer.cs" />
+    <Compile Remove="Migrations\20210129100645_PhotoMappingForItems.cs" />
+    <Compile Remove="Migrations\20210129100645_PhotoMappingForItems.Designer.cs" />
+    <Compile Remove="Migrations\20210327061840_eventHallMapingtest.cs" />
+    <Compile Remove="Migrations\20210327061840_eventHallMapingtest.Designer.cs" />
+    <Compile Remove="Migrations\20210327063158_eventHallMapingtest.cs" />
+    <Compile Remove="Migrations\20210327063158_eventHallMapingtest.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.7.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+
+
+</Project>

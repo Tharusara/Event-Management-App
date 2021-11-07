@@ -1,0 +1,22 @@
+[
+  {
+    "UserName": "Lola",
+    "Gender": "female",
+    "DateOfBirth": "1994-02-21",
+    "Password": "password",
+    "CallingName": "Lola",
+    "Created": "2017-08-02",
+    "LastActive": "2017-08-02"
+
+  },
+  {
+    "UserName": "Administrator",
+    "Gender": "male",
+    "DateOfBirth": "1979-04-19",
+    "Password": "password",
+    "CallingName": "Administrator",
+    "Created": "2017-01-21",
+    "LastActive": "2017-01-21"
+
+  }  
+]
